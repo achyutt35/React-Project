@@ -1,8 +1,8 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './containers/App';
 import './index.css';
-import SearchBox from './SearchBox';
+// import SearchBox from './SearchBox';
 import tachyons from 'tachyons';
 import reportWebVitals from './reportWebVitals';
 
