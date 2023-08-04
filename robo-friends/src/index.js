@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './Hello.css';
-import Hello from './Hello';
 import App from './App';
-import tachyon from 'tachyons';
+import './index.css';
+import SearchBox from './SearchBox';
+import tachyons from 'tachyons';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Hello greeting={'MyFriend'}/> 
-    <App />
-  </React.StrictMode>
+  <StrictMode>
+  <div className='tc'>
+      <App/>
+  </div>
+  </StrictMode>
+
 );
 
 //greeting variable value is MyFriend and we access this in Hello.js    
