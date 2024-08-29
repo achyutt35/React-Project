@@ -3,16 +3,13 @@ import ReactDOM from 'react-dom/client';
 import App from './containers/App';
 import './index.css';
 // import SearchBox from './SearchBox';
-import tachyons from 'tachyons';
+// import "tachyons";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-  <div className='tc'>
       <App/>
-  </div>
-  </StrictMode>
+  
 
 );
 

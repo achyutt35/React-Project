@@ -8,7 +8,8 @@ class SearchBox extends Component {
                     className="pa3 ba b--green bg-lightest-blue"
                     type='search'
                     placeholder="search bots"
-                    onChange={this.props.searchChange} />
+                    onChange={this.props.searchChange}
+                    style={{marginLeft:'550px',width:'400px'}} />
             </div>
         );
     }

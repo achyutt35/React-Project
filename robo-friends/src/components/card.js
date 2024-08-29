@@ -7,11 +7,12 @@ class Card extends Component {
         
         return (
 
-            <div className="tc bg-light-yellow dib br3 pa3 ma2 grow bw2 shadow-5">
-                <img alt='robots' src={`https://robohash.org/${id}?10x10`} />
-                <div>
-                    <h2>{name} </h2>
-                    <p> {email}</p>
+            <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
+                
+                <div className='ts' style={{marginLeft:'100px'}}>
+                    <img alt='robots' src={`https://robohash.org/${id}?10x10`} />
+                    <h2>    {name}    </h2>
+                    <p>     {email}   </p>
                 </div>
 
             </div>
