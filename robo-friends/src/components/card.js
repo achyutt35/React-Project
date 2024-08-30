@@ -7,9 +7,9 @@ class Card extends Component {
         
         return (
 
-            <div className='tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5'>
+            <div className='tc bg-white br3 pa3 ma2 dib bw1 grow'>
                 
-                <div className='ts' style={{marginLeft:'100px'}}>
+                <div className='tc'>
                     <img alt='robots' src={`https://robohash.org/${id}?10x10`} />
                     <h2>    {name}    </h2>
                     <p>     {email}   </p>

@@ -9,7 +9,7 @@ class SearchBox extends Component {
                     type='search'
                     placeholder="search bots"
                     onChange={this.props.searchChange}
-                    style={{marginLeft:'550px',width:'400px'}} />
+                    />
             </div>
         );
     }

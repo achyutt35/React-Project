@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './containers/App';
 import './index.css';
 // import SearchBox from './SearchBox';
-// import "tachyons";
+import tachyons from "tachyons";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
